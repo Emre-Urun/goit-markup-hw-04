@@ -82,6 +82,7 @@ body {
       rgba(0, 0, 0, 0.58) 97%
     ),
     url(../image/people-office.jpg);
+  background-size: cover;
 }
 .first-field-title {
   font-size: 56px;
@@ -169,8 +170,6 @@ h2 {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-}
-.three-field-list:hover {
 }
 .three-field-list .text-name {
   line-height: 1.2;
