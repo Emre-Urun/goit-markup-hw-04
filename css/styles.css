@@ -1,0 +1,366 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+/* Başlık Bölümüne ait kod burada başlıyor */
+.title {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: #2e2f42;
+  width: 1440px;
+  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 255, 0.127);
+}
+.web {
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  margin: 24px 76px 24px 156px;
+}
+.accent {
+  color: #4d5ae5;
+}
+.navigation {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.navigation-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  height: 24px;
+  width: 261px;
+}
+.navigation-list-item:hover {
+  color: #404bbf;
+}
+.adres {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+.adres-list {
+  display: flex;
+}
+.adres-mail {
+  margin-left: 332px;
+}
+.adres-tel {
+  margin-right: 156px;
+  margin-left: 40px;
+}
+.adres-mail:hover,
+.adres-tel:hover {
+  color: #404bbf;
+  text-decoration: underline;
+}
+/* Başlık Bölümüne ait kod burada bitiyor */
+/* Butonun olduğu kod burada başlıyor */
+.first-field {
+  width: 1440px;
+  height: 600px;
+  background-color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.6) 11%,
+      rgba(0, 0, 0, 0.58) 97%
+    ),
+    url(../image/people-office.jpg);
+}
+.first-field-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  padding: 188px 427px 48px;
+}
+.first-field-button {
+  display: flex;
+  width: 169px;
+  height: 56px;
+  margin: 48px 635px 188px 636px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+.first-field-button:hover,
+.first-field-button:focus {
+  background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+/* Butonun olduğu kod burada bitiyor */
+/* Dört Başlıklı açıklamaların olduğu kod burada başlıyor */
+h3 {
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 8px;
+  justify-content: center;
+  font-weight: 600;
+}
+.two-field {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.two-field-list {
+  display: flex;
+  margin: 120px 156px;
+  justify-content: space-between;
+  gap: 24px;
+}
+.two-field-list p {
+  text-align: center;
+}
+.two-field-box-svg {
+  display: flex;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border: 1px solid #0a0a0a;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
+.two-field-svg {
+  width: 64px;
+  height: 64px;
+}
+/* Dört Başlıklı açıklamaların olduğu kod burada bitiyor */
+/* (Our Team) kısmının olduğu kod burada başlıyor */
+.three-field {
+  width: 1440px;
+  height: 732px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4fd;
+}
+h2 {
+  padding: 120px 639px 72px;
+  text-align: center;
+  font-size: 36px;
+}
+.three-field-list {
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+}
+.three-field-list:hover {
+}
+.three-field-list .text-name {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+}
+.three-field-list .text-information {
+  color: #434455;
+}
+.three-field-list-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #fff;
+  padding: 32px 16px;
+  border-radius: 0 0 4px 4px;
+}
+.three-field-list img {
+  width: 264px;
+  height: 260px;
+}
+.three-field-box {
+  display: flex;
+  width: 232px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.three-field-box-svg {
+  width: 40px;
+  height: 40px;
+  fill: #4d5ae5;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.three-field-box-svg:hover {
+  transform: scale(1.2);
+  fill: #31d0aa;
+}
+.three-field-list li {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.three-field-list-box {
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 750ms cubic-bezier(0.34, 2, 0.6, 1),
+    box-shadow 750ms ease-in-out;
+}
+.three-field-list-box:hover {
+  transform: translateY(-2%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* (Our Team) kısmının olduğu kod burada bitiyor */
+/* (Portfolio) kısmının olduğu kod burada başlıyor */
+.four-field {
+  width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.four-field-title {
+  padding: 120px 611px 72px;
+}
+.four-field-list img {
+  width: 360px;
+  height: 300px;
+}
+.four-field-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-left: 156px;
+  padding-right: 156px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.four-field-list h3 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.text-name-info {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #435543;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list-border {
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list-border-img {
+  position: relative;
+  overflow: hidden;
+}
+.list-border-hidden {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+}
+.list-border-img:hover {
+  transform: translateY(0);
+}
+.four-field .list-border {
+  width: calc((100% - 48px) / 3);
+}
+.list-border:hover .list-border-hidden {
+  transform: translateY(0);
+}
+.list-border:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+/* (Portfolio) kısmının olduğu kod burada bitiyor */
+/* Son kısmın (footer) olduğu kod burada başlıyor */
+.last-field {
+  width: 1440px;
+  height: 312px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2e2f42;
+}
+.last-field-box {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 120px 100px 156px;
+  gap: 8px;
+}
+.last-field-one {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+.last-field-two {
+  color: #f4f4fd;
+}
+.last-two-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-right: 692px;
+  padding-bottom: 120px;
+  gap: 16px;
+  width: 208px;
+  height: 80px;
+}
+.last-box {
+  display: flex;
+}
+.son-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 100px;
+}
+.last-field-social {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+/* Son kısmın (footer) olduğu kod burada bitiyor */
